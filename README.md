@@ -31,7 +31,7 @@
 ![image](https://user-images.githubusercontent.com/76051264/102740103-5547ff00-4392-11eb-8654-58d2e50e14ce.png)
 ---
 
-**4) Function Diagram**
+**5) Function Diagram**
 ![image](https://user-images.githubusercontent.com/76051264/102740288-c982a280-4392-11eb-93f3-397dc3f3d3c1.png)
 
   - ① Raspberry의 npm(node package manager)실행을 통해 Magic Mirror인 SmartMirror에 접근한다.
@@ -40,7 +40,7 @@
   - ④ Pushbullet API를 통해 통신기능을 사용하여, SmartMirror 디스플레이에 기기등록된 사용자의 스마트폰 알림을 표시할 수 있다. 실시간으로 수신되는 문자, 카카오톡, 전화, App들의 알림을 디스플레이에 보여준다. pushbullet은 스마트폰의 App과 데스크톱 app 두 가지 모두를 사용 할 수 있으며, 지정된 명령어를 통해 SmartMirror 디스플레이 표시되는 모듈들을 숨기거나 보여줄 수 있으며, 스마트폰의 디스플레이를 끄거나 켜고, 라즈베리파이의 전원을 끌 수 있다.
 ---
 
-**5) Action**
+**6) Action**
   - 기본 동작의 경우 npm이 설치 된 MagicMiiror 디렉토리 내부에서 실행할 수 있다.  
   - MagicMirror dic에는실행에 필요한 configuration파일 있는 config/dic, UI 설정을 위한 css/dic, 화면에 시각화 및 API를 동적으로 사용하기 위한 모듈들이 모여있는 modules/dic 등으로 구성 되어있다.
   - Terminal에서 npm start 명령어로 Smart mirror 실행이 가능하다.
